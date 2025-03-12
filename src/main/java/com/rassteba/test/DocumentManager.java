@@ -21,7 +21,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * Implementations should be in a single class
  * This class could be auto tested
  */
-@Getter
 public class DocumentManager {
 
   final Map<String, Document> storage = new ConcurrentHashMap<>();
